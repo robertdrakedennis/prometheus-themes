@@ -1,0 +1,532 @@
+.header {
+    text-align: center;
+    background: rgba(0, 0, 0,0.5);
+}
+body:before {
+    content: ' ';
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    will-change: transform;
+    z-index: -1;
+}
+option {
+    color: #EEE;
+}
+html,
+body {
+    background: none;
+}
+.banner {
+    display: none;
+}
+/* NAVBAR CONTENT START */
+
+.navbar .container {
+    padding-left: 15px;
+    width: 100% !important;
+}
+.notify-icon,
+.badge {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+}
+.navbar {
+    margin-bottom: 0px;
+}
+.navbar-inverse {
+    background: rgba(0, 0, 0,0.5);
+}
+.navbar-inverse .navbar-nav > .active > a {
+    background: none;
+}
+.navbar-inverse .navbar-nav > .active > a:hover {
+    background: none;
+}
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+    background: none;
+}
+.dashboard-nav {
+    background: rgba(0, 0, 0,0.4);
+}
+.dashboard-nav a {
+    background: transparent;
+}
+.dashboard-nav a.active {
+    background-color: rgba(0, 0, 0,0.4);
+}
+.dashboard-nav a:hover {
+    text-decoration: none;
+    background-color: rgba(0, 0, 0,0.4);
+}
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .open > a:hover,
+.navbar-inverse .navbar-nav > .open > a:focus {
+    background: none;
+}
+/* NAVBAR CONTENT END */
+/* pop up box / success box etc */
+
+.info-box {
+    background: rgba(0, 0, 0,0.5);
+    border-left: 3.5px solid rgba(0, 0, 0, 0.3) !important;
+    border-right: 3.5px solid rgba(0, 0, 0, 0.3) !important;
+}
+/* credit content*/
+
+.credit-content {
+    background: rgba(0, 0, 0,0.3);
+    border: none;
+}
+.credit-content span:nth-child(3) {
+    border-top: 1px solid rgba(0, 0, 0, 0.1) !important;
+}
+/* credit content*/
+
+.footer {
+    background: rgba(0, 0, 0,0.5);
+}
+/* admin shit*/
+
+.main-page-box {
+    background: rgba(0, 0, 0,0.6);
+    padding: 10px;
+}
+.notSetup {
+    background: rgba(0, 0, 0,0.3);
+}
+.main-menu-box {
+    background: rgba(0, 0, 0,0.5);
+}
+.main-menu-box .sub-menu {
+    background: rgba(0, 0, 0,0.3);
+}
+.main-menu-box ul li.active {
+    background: rgba(0, 0, 0,0.5);
+}
+.main-menu-box ul li:active {
+    background: rgba(0, 0, 0,0.5);
+}
+.main-menu-box ul li {
+    padding: 15px 15px;
+}
+.main-menu-box ul li:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.main-menu-box ul.sub-menu li:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.main-menu-box ul.sub-menu .submenu-header {
+    font-weight: bold;
+}
+.dropdown-menu {
+    background: rgba(0, 0, 0,0.4);
+}
+.version-marker {
+    background: rgba(0, 0, 0,0.5);
+}
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+    background: rgba(0, 0, 0,0.4);
+}
+.dropdown-menu > .active > a {
+    background: rgba(0, 0, 0,0.5);
+}
+.dropdown-menu > .active > a,
+.dropdown-menu > .active > a:hover,
+.dropdown-menu > .active > a:focus {
+    background: rgba(0, 0, 0,0.5);
+}
+/* admin shit*/
+/*dashboard-nav*/
+
+.content-page-top {
+    display: none;
+}
+.content-page-top:before {
+    border-color: rgba(0, 0, 0, 0.2) transparent transparent;
+}
+.content-page-top:after {
+    border-color: rgba(0, 0, 0, 0.2) transparent transparent;
+}
+/*dashboard-nav*/
+/* admin / profile shit*/
+
+.store-box-header {
+    background-color: transparent;
+}
+.store-box-header{
+  background-color: rgba(0, 0, 0,0.5);
+}
+.sale-box {
+    background-color: rgba(193, 0, 0, 0.5);
+    border-bottom: 3.5px solid rgba(193, 0, 0, 0.3) !important;
+}
+.panel-body > .panel-header {
+    background: rgba(0, 0, 0,0.1);
+}
+.stat-box {
+    background: rgba(0, 0, 0,0.4);
+}
+.ticket-header,
+.stat-box-header {
+    background: rgba(0, 0, 0,0.5);
+}
+.ticket-header img {
+    height: 75px;
+    width: 75px;
+}
+.ticket-header {
+    height: 75px;
+    font-weight: bold;
+}
+.dashboard-widget-small-box {
+    background: rgba(0, 0, 0,0.5);
+}
+/* admin / profile shit*/
+/*ANIMATION - MASTER START */
+
+.dashboard-widget-small-box,
+.panel-body,
+.table,
+.ticket-header,
+.stat-box,
+a .srv-label,
+.donationGoal,
+.top_donators,
+.recent_donators,
+.news-block,
+.categoryLink,
+.store-box-upper li,
+.store-box-lower,
+.store-box-upper span,
+.store-box-header {
+    box-shadow: 0 0px 0px 0 rgba(0, 0, 0, .0), 0 3px 10px 0 rgba(0, 0, 0, .0);
+    transition: box-shadow 0.3s ease-in-out;
+}
+.dashboard-widget-small-box:hover,
+.panel-body:hover,
+.table:hover,
+.ticket-header:hover,
+.stat-box:hover,
+a .srv-label:hover,
+.donationGoal:hover,
+.top_donators:hover,
+.recent_donators:hover,
+.news-block:hover,
+.categoryLink:hover,
+.store-box-upper li:hover,
+.store-box-lower:hover,
+.store-box-upper span:hover,
+.store-box-header:hover {
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, .2), 0 6px 20px 0 rgba(0, 0, 0, .19);
+}
+.srv-box,
+.srv-label,
+.srv-box .fa,
+.dashboard-widget-small-box i,
+.categoryLink:hover,
+.main-menu-box ul li:hover {
+    transition: 1s;
+}
+.dashboard-widget-small-box:hover,
+.panel-body:hover,
+.table:hover,
+.ticket-header:hover,
+.stat-box:hover {
+    transition: box-shadow 0.3s ease-in-out;
+}
+/*ANIMATION - MASTER END */
+
+.panel-body {
+    background: rgba(0, 0, 0,0.4);
+}
+/* PACKAGE START */
+
+.darker-box {
+    background: rgba(0, 0, 0,0.5);
+}
+.categoryLink {
+    background: rgba(11, 11, 11, 0.4);
+}
+.categoryLink:focus {
+    border: none;
+    outline: none;
+}
+.categoryLink:active {
+    border: none;
+    box-shadow: none;
+}
+.categoryLink,
+.form-control {
+    background: rgba(0, 0, 0,0.3);
+}
+.featured-header {
+    background: rgba(0, 0, 0,0.7);
+}
+.store-box-upper span {
+    background: rgba(0, 0, 0,0.1);
+    border-bottom: 0px;
+}
+.buy-btn {
+    background: rgba(0, 0, 0,0.7);
+    border-bottom: 0px solid #1d1d1d;
+    border-right: 0px solid #1d1d1d;
+    border-left: 0px solid #1d1d1d;
+}
+.buy-btn:hover {
+    background: rgba(0, 0, 0,0.8);
+}
+.store-box {
+    border-bottom: 0px solid #1d1d1d;
+    border-right: 0px solid #1d1d1d;
+    border-left: 0px solid #1d1d1d;
+    border-top: 0px solid #000000;
+}
+.store-box-upper li {
+    border-top: none;
+}
+.store-box-upper ul > li:last-child {
+    border-bottom: none;
+    background: rgba(0, 0, 0, 0.3) !important;
+}
+.store-box-upper li:nth-child(2n+0) {
+    background: rgba(0, 0, 0,0.3);
+}
+.store-box {
+    background: rgba(0, 0, 0,0.5);
+}
+.pkg-step {
+    background: rgba(0, 0, 0,0.4);
+}
+.bs-callout {
+    background: rgba(0, 0, 0,0.4);
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+}
+/** PACKAGE END */
+/* home page */
+
+.news-block {
+    background: rgba(0, 0, 0,0.4);
+}
+.donationGoal {
+    background: rgba(0, 0, 0,0.4);
+    padding: 10px;
+}
+.progress {
+    background: rgba(0, 0, 0,0.3);
+}
+.progress-bar-danger {
+    background: rgba(0, 0, 0,0.8);
+}
+.top_donators {
+    background: rgba(0, 0, 0,0.4);
+    padding: 10px;
+}
+.recent_donators {
+    background: rgba(0, 0, 0,0.4);
+    padding: 10px;
+}
+/*home page*/
+/* tables */
+
+.table-striped thead {
+    background: rgba(0, 0, 0,0.4);
+}
+.table-striped > tbody > tr:nth-of-type(odd) {
+    background: rgba(0, 0, 0, 0.2) !important;
+}
+.table-striped > tbody > tr:nth-of-type(even),
+#sortable li {
+    background: rgba(0, 0, 0, 0.2) !important;
+}
+/* tables */
+
+.btn-default:hover,
+.btn-prom:hover,
+.btn-warning:hover,
+.btn-danger:hover,
+.btn-danger:focus,
+.btn-success:hover,
+.btn-info:hover {
+    transition: background-color 0.3s ease-in-out;
+}
+/*buttons*/
+
+.btn-prom {
+    background: rgba(0, 0, 0,0.4);
+}
+.btn-prom:focus {
+    background: none;
+}
+.btn-default {
+    background-color: rgba(0, 0, 0,0.4);
+}
+.btn-default:hover {
+    background-color: rgba(0, 0, 0, .5) !important;
+}
+.btn-prom:hover {
+    background: rgba(0, 0, 0,0.4);
+}
+.btn-warning {
+    background-color: rgba(240, 173, 78,0.4);
+    border-color: rgba(238, 162, 54,0.4);
+}
+.btn-warning:hover {
+    background-color: rgba(240, 173, 78,0.5);
+    border-color: rgba(238, 162, 54,0.5);
+}
+.btn-danger {
+    background-color: rgba(217, 83, 79,0.4);
+    border-color: rgba(212, 63, 58,0.5);
+}
+.btn-danger:hover {
+    background-color: rgba(217, 83, 79,0.4);
+    border-color: rgba(212, 63, 58,0.5);
+}
+.btn-danger:focus {
+    background-color: rgba(217, 83, 79,0.4);
+    border-color: rgba(212, 63, 58,0.5);
+}
+.btn-success {
+    background-color: rgba(92, 184, 92,0.4);
+    border-color: rgba(76, 174, 76,0.5);
+}
+.btn-success:hover {
+    background-color: rgba(92, 184, 92,0.5);
+    border-color: rgba(76, 174, 76,0.5);
+}
+.btn-info {
+    background-color: rgba(91, 192, 222, 0.4);
+    border-color: rgba(70, 184, 218, 0.5);
+}
+.btn-info:hover {
+    background-color: rgba(91, 192, 222, 0.5);
+    border-color: rgba(70, 184, 218, 0.5);
+}
+/*buttons*/
+
+.icheckbox_line-red,
+.iradio_line-red {
+    background: rgba(0, 0, 0,0.4);
+}
+.options {
+    background: rgba(0, 0, 0, .4) !important;
+}
+/** server boxes start **/
+
+.srv-box {
+    text-align: center;
+    height: 115px;
+    padding-top: 25px;
+    margin-bottom: 50px;
+}
+a .srv-label {
+    background: rgba(0, 0, 0,0.5);
+    font-weight: bolder;
+}
+.srv-box:hover {
+    background: none;
+    color: #fff !important;
+}
+a .srv-label:hover {
+    color: #fff;
+}
+/** server boxes end **/
+/*misc*/
+
+.footer, .dashboard-widget-small-box, .darker-box{
+  border-top: 4.5px solid rgba(0, 0, 0,0.2); !important;
+}
+
+.navbar-inverse{
+border-bottom: 4.5px solid rgba(0, 0, 0,0.2); !important;
+}
+
+
+.main-menu-outer-box::-webkit-scrollbar {
+    display: none;
+}
+body::-webkit-scrollbar {
+    width: 0em;
+}
+.pagination > .disabled > span,
+.pagination > .disabled > span:hover,
+.pagination > .disabled > span:focus,
+.pagination > .disabled > a,
+.pagination > .disabled > a:hover,
+.pagination > .disabled > a:focus {
+    background: rgba(0, 0, 0, .4)
+}
+.pagination > li > a,
+.pagination > li > span {
+    border: none;
+}
+.pagination li a,
+.pagination > span,
+.pagination > span:hover,
+.pagination > span:focus,
+.pagination > a,
+.pagination > a:hover,
+.pagination > a:focus {
+    background: rgba(0, 0, 0, .4)
+}
+.pagination > .active > a,
+.pagination > .active > a:hover,
+.pagination > .active > a:focus {
+    background: rgba(0, 0, 0, .4)
+}
+.trumbowyg-box,
+.trumbowyg-editor,
+.trumbowyg-button-pane,
+.trumbowyg-dropdown,
+.trumbowyg-modal-box,
+.trumbowyg-modal-title {
+    background: rgba(0, 0, 0, .4)
+}
+.trumbowyg-button-pane:not(.trumbowyg-disable) li button:hover,
+.trumbowyg-button-pane:not(.trumbowyg-disable) li button:focus,
+.trumbowyg-button-pane li button.trumbowyg-active,
+.trumbowyg-button-pane li.trumbowyg-not-disable button:hover,
+.trumbowyg-button-pane li.trumbowyg-not-disable button:focus {
+    background-color: rgba(0, 0, 0, .4) !important;
+}
+.trumbowyg-dropdown button:hover {
+    background-color: rgba(0, 0, 0, .4) !important;
+}
+.trumbowyg-modal-box,
+.trumbowyg-modal-title {
+    background: rgba(0, 0, 0, .6)
+}
+.trumbowyg-button-pane:not(.trumbowyg-disable) li button:hover,
+.trumbowyg-button-pane:not(.trumbowyg-disable) li button:focus,
+.trumbowyg-button-pane li button.trumbowyg-active,
+.trumbowyg-button-pane li.trumbowyg-not-disable button:hover,
+.trumbowyg-button-pane li.trumbowyg-not-disable button:focus,
+.trumbowyg-box,
+.trumbowyg-editor,
+.trumbowyg-button-pane,
+.trumbowyg-dropdown {
+    background-color: rgba(0, 0, 0, .4)
+}
+.trumbowyg-dropdown button {
+    background-color: rgba(0, 0, 0, .1)
+}
+code {
+    font-weight: bold !important;
+    padding: 2px 4px;
+    font-size: 90%;
+    color: #EEEEEE;
+    background-color: rgba(217, 83, 79, 0.4);
+}
+hr {
+    border-color: rgba(0, 0, 0, .4)
+}

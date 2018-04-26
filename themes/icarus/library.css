@@ -1,0 +1,514 @@
+.header {
+    text-align: center;
+    background: #121216;
+}
+body:before {
+    content: ' ';
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    will-change: transform;
+    z-index: -1;
+}
+option {
+    color: #EEE;
+}
+html,
+body {
+    background: none;
+}
+.banner {
+    display: none;
+}
+/* NAVBAR CONTENT START */
+
+.navbar .container {
+    padding-left: 15px;
+    width: 100% !important;
+}
+.notify-icon,
+.badge {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+}
+.navbar {
+    margin-bottom: 0px;
+}
+
+
+
+
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus{
+  background-color:#19191f !important;
+
+}
+.navbar-inverse .navbar-nav > li > a:hover, .dashboard-nav a:hover{
+  background-color:#19191f !important;
+}
+
+
+
+
+.navbar-inverse {
+    background: #111114;
+}
+.navbar-inverse .navbar-nav > .active > a {
+    background: none;
+}
+.navbar-inverse .navbar-nav > .active > a:hover {
+    background: none;
+}
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+    background: none;
+}
+.dashboard-nav {
+    background: #111114
+}
+.dashboard-nav a {
+    background: transparent;
+}
+.dashboard-nav a.active {
+    background-color: #19191f
+}
+.dashboard-nav a:hover {
+    text-decoration: none;
+    background-color: #19191f
+}
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .open > a:hover,
+.navbar-inverse .navbar-nav > .open > a:focus {
+    background: none;
+}
+/* NAVBAR CONTENT END */
+/* pop up box / success box etc */
+
+.info-box {
+    background: #19191f;
+}
+/* credit content*/
+
+.credit-content {
+    background: #19191f;
+    border: none;
+}
+
+/* credit content*/
+
+.footer {
+    background: #111114
+}
+/* admin shit*/
+
+.main-page-box {
+      background: #121216;
+
+}
+.notSetup {
+      background: #19191f;
+}
+.main-menu-box {
+    background: #19191f
+}
+.main-menu-box .sub-menu {
+    background: #19191f
+}
+.main-menu-box ul li.active {
+    background: #121216
+}
+.main-menu-box ul li:active {
+    background: #121216
+}
+.main-menu-box ul li {
+    padding: 15px 15px;
+}
+.main-menu-box ul li:hover {
+    background-color: #121216
+}
+.main-menu-box ul.sub-menu li:hover {
+    background-color: #121216
+}
+.main-menu-box ul.sub-menu .submenu-header {
+    font-weight: bold;
+}
+.dropdown-menu {
+    background: #121216
+}
+.version-marker {
+    background: #121216
+}
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+    background: rgba(0, 0, 0,0.4);
+}
+.dropdown-menu > .active > a {
+    background: rgba(0, 0, 0,0.5);
+}
+.dropdown-menu > .active > a,
+.dropdown-menu > .active > a:hover,
+.dropdown-menu > .active > a:focus {
+    background: rgba(0, 0, 0,0.5);
+}
+/* admin shit*/
+/*dashboard-nav*/
+
+.content-page-top {
+    display: none;
+}
+.content-page-top:before {
+    border-color: rgba(0, 0, 0, 0.2) transparent transparent;
+}
+.content-page-top:after {
+    border-color: rgba(0, 0, 0, 0.2) transparent transparent;
+}
+/*dashboard-nav*/
+/* admin / profile shit*/
+
+.store-box-header {
+    background-color: transparent;
+}
+.store-box-header{
+  background-color: #121216;
+}
+.sale-box {
+    background-color: #d23a43;
+    border-bottom: 3.5px solid rgba(193, 0, 0, 0.3) !important;
+}
+.panel-body > .panel-header {
+    background: #121216
+}
+.stat-box {
+    background: #121216;
+}
+.ticket-header,
+.stat-box-header {
+    background: #121216;
+}
+.ticket-header img {
+    height: 75px;
+    width: 75px;
+}
+.ticket-header {
+    height: 75px;
+    font-weight: bold;
+}
+.dashboard-widget-small-box {
+    background: #121216;
+}
+
+.dashboard-widget-small-box{
+  border-top:none;
+}
+/* admin / profile shit*/
+/*ANIMATION - MASTER START */
+
+/*ANIMATION - MASTER END */
+
+.panel-body {
+    background: #19191f;
+}
+/* PACKAGE START */
+
+.darker-box {
+    background: #121216;
+}
+.categoryLink {
+    background: #1a1a1e;
+}
+.categoryLink:focus {
+    border: none;
+    outline: none;
+}
+.categoryLink:active {
+    border: none;
+    box-shadow: none;
+}
+.categoryLink,
+.form-control {
+    background: #1b1b1f
+}
+.featured-header {
+    background: #121216;
+}
+.store-box-upper span {
+    background: #19191f;
+    border-bottom: 0px;
+}
+.buy-btn {
+    background: #121216;
+    border-bottom: 0px solid #1d1d1d;
+    border-right: 0px solid #1d1d1d;
+    border-left: 0px solid #1d1d1d;
+}
+.buy-btn:hover {
+  background: #101014;
+}
+.store-box {
+    border-bottom: 0px solid #1d1d1d;
+    border-right: 0px solid #1d1d1d;
+    border-left: 0px solid #1d1d1d;
+    border-top: 0px solid #000000;
+}
+.store-box-upper li {
+    border-top: none;
+}
+.store-box-upper ul > li:last-child {
+    border-bottom: none;
+    background: #19191f !important;
+}
+.store-box-upper li:nth-child(2n+0) {
+    background: #19191f;
+}
+.store-box {
+    background: #19191f;
+}
+.pkg-step {
+    background: #121216;
+}
+.bs-callout {
+    background: #19191f;
+    border-top: none;
+    border-right: none;
+    border-bottom: none;
+}
+/** PACKAGE END */
+/* home page */
+
+.news-block {
+    background: #19191f;
+}
+.donationGoal {
+    background: #19191f;
+}
+
+.top_donators {
+    background: #19191f;
+}
+.recent_donators {
+    background: #19191f;
+}
+
+.donationGoal > h2, .top_donators > h2, .recent_donators > h2{
+  text-align: center;
+}
+
+.donationGoal, .top_donators, .recent_donators{
+  padding-top: 10px;
+}
+
+.progress {
+    background: rgba(0, 0, 0,0.3);
+}
+.progress-bar-danger {
+    background: rgba(0, 0, 0,0.8);
+}
+
+/*home page*/
+/* tables */
+
+.table-striped thead {
+    background: #19191f
+}
+.table-striped > tbody > tr:nth-of-type(odd) {
+    background: #19191f !important;
+}
+.table-striped > tbody > tr:nth-of-type(even),
+#sortable li {
+    background: #19191f !important;
+}
+/* tables */
+
+.btn-default:hover,
+.btn-prom:hover,
+.btn-warning:hover,
+.btn-danger:hover,
+.btn-danger:focus,
+.btn-success:hover,
+.btn-info:hover {
+    transition: background-color 0.3s ease-in-out;
+}
+/*buttons*/
+
+.btn-prom {
+    background: #111114;
+    border-radius: 2px !important;
+}
+.btn-prom:focus {
+    background: #111114;
+    border-radius: 2px !important;
+}
+.btn-default {
+    background: #111114;
+    border-radius: 2px !important;
+}
+.btn-default:hover {
+    background: #111119;
+    border-radius: 2px !important;
+}
+.btn-prom:hover {
+    background: #111119;
+    border-radius: 2px !important;
+}
+.btn-warning {
+    background-color: #df9936;
+    border-color: #df9936;
+border-radius: 2px !important;
+}
+.btn-warning:hover {
+    background-color: #c98b32;
+    border-color: #c98b32;
+    border-radius: 2px !important;
+}
+.btn-danger {
+  background-color: #df3a36;
+  border-color: #df3a36;
+  border-radius: 2px !important;
+}
+}
+.btn-danger:hover {
+    background-color: #df3a36;
+    border-color: #df3a36;
+    border-radius: 2px !important;
+}
+.btn-danger:focus {
+  background-color: #df3a36;
+  border-color: #df3a36;
+border-radius: 2px !important;
+}
+.btn-success {
+    background-color: #2f8e5d;
+    border-color: #2f8e5d;
+border-radius: 2px !important;
+}
+.btn-success:hover {
+  background-color: #2f8e5d;
+  border-color: #2f8e5d;
+border-radius: 2px !important;
+}
+.btn-info {
+    background-color: #3986bd;
+    border-color: #3986bd;
+border-radius: 2px !important;
+}
+.btn-info:hover {
+  background-color: #3986bd;
+  border-color: #3986bd;
+border-radius: 2px !important;
+}
+/*buttons*/
+
+.icheckbox_line-red,
+.iradio_line-red {
+    background: rgba(0, 0, 0,0.4);
+}
+.options {
+    background: rgba(0, 0, 0, .4) !important;
+}
+/** server boxes start **/
+
+.srv-box {
+    background: #19191f;
+    text-align: center;
+    height: 115px;
+    padding-top: 25px;
+    margin-bottom: 50px;
+}
+a .srv-label {
+    background: #121216;
+    font-weight: bolder;
+}
+.srv-box:hover {
+    background: #19191f;
+    color: #fff !important;
+}
+a .srv-label:hover {
+    color: #fff;
+}
+/** server boxes end **/
+/*misc*/
+
+
+.main-menu-outer-box::-webkit-scrollbar {
+    display: none;
+}
+body::-webkit-scrollbar {
+    width: 0em;
+}
+.pagination > .disabled > span,
+.pagination > .disabled > span:hover,
+.pagination > .disabled > span:focus,
+.pagination > .disabled > a,
+.pagination > .disabled > a:hover,
+.pagination > .disabled > a:focus {
+    background: rgba(0, 0, 0, .4)
+}
+.pagination > li > a,
+.pagination > li > span {
+    border: none;
+}
+.pagination li a,
+.pagination > span,
+.pagination > span:hover,
+.pagination > span:focus,
+.pagination > a,
+.pagination > a:hover,
+.pagination > a:focus {
+    background: rgba(0, 0, 0, .4)
+}
+.pagination > .active > a,
+.pagination > .active > a:hover,
+.pagination > .active > a:focus {
+    background: rgba(0, 0, 0, .4)
+}
+.trumbowyg-box,
+.trumbowyg-editor,
+.trumbowyg-button-pane,
+.trumbowyg-dropdown,
+.trumbowyg-modal-box,
+.trumbowyg-modal-title {
+    background: rgba(0, 0, 0, .4)
+}
+.trumbowyg-button-pane:not(.trumbowyg-disable) li button:hover,
+.trumbowyg-button-pane:not(.trumbowyg-disable) li button:focus,
+.trumbowyg-button-pane li button.trumbowyg-active,
+.trumbowyg-button-pane li.trumbowyg-not-disable button:hover,
+.trumbowyg-button-pane li.trumbowyg-not-disable button:focus {
+    background-color: rgba(0, 0, 0, .4) !important;
+}
+.trumbowyg-dropdown button:hover {
+    background-color: rgba(0, 0, 0, .4) !important;
+}
+.trumbowyg-modal-box,
+.trumbowyg-modal-title {
+    background: rgba(0, 0, 0, .6)
+}
+.trumbowyg-button-pane:not(.trumbowyg-disable) li button:hover,
+.trumbowyg-button-pane:not(.trumbowyg-disable) li button:focus,
+.trumbowyg-button-pane li button.trumbowyg-active,
+.trumbowyg-button-pane li.trumbowyg-not-disable button:hover,
+.trumbowyg-button-pane li.trumbowyg-not-disable button:focus,
+.trumbowyg-box,
+.trumbowyg-editor,
+.trumbowyg-button-pane,
+.trumbowyg-dropdown {
+    background-color: rgba(0, 0, 0, .4)
+}
+.trumbowyg-dropdown button {
+    background-color: rgba(0, 0, 0, .1)
+}
+code {
+    font-weight: bold !important;
+    padding: 2px 4px;
+    font-size: 90%;
+    color: #EEEEEE;
+    background-color: rgba(217, 83, 79, 0.4);
+}
+hr {
+    border-color: rgba(0, 0, 0, .4)
+}

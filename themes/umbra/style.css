@@ -1,0 +1,204 @@
+/** DO NOT TOUCH THIS AREA OR YOUR THEME WILL NOT WORK**/
+@import url("library.css");
+/** DO NOT TOUCH THIS AREA OR YOUR THEME WILL NOT WORK**/
+
+/** CONFIG START **/
+/** make sure this link is a direct link to the actual image you want to use, this is just an example image **/
+
+body:before {
+    background-image: url("http://i.imgur.com/8sAE6jD.jpg");
+}
+
+
+.dashboard-widget-small-box .element,
+.dashboard-widget-small-box i {
+    color: #EEE !important;
+}
+/*This colors the caption / subtext of the widget area*/
+.dashboard-widget-small-box .caption{
+  color: #EEE !important;
+}
+
+/* this colors the titles of most things */
+h1,h2,h3,h4,h5,h6 {
+    color: #EEE !important;
+}
+
+/* This colors the text of most of the content */
+.content,
+.news-block span {
+    color: #EEE !important;
+}
+
+/*  this colors most of the links */
+a {
+    color: #EEE;
+    transition: all .3s ease-in-out;
+}
+
+/* this colors the hover effect of a link */
+a:hover {
+    color: #EEE;
+}
+
+/* this colors the text when creations a package */
+.pkg-step {
+    color: #EEE;
+}
+
+/*changes text color in footer*/
+.footer, .version{
+  color:#EEE;
+}
+/*Changes icon color of server*/
+.srv-box .fa {
+    color: #EEE !important;
+}
+/*Changes icon hover color of server*/
+.srv-box .fa:hover {
+    color: #D6D6D6 !important;
+}
+
+/*Changes color of the text in most regular buttons*/
+.btn-prom, .btn-prom:hover{
+  color:#EEE;
+}
+
+/* this controls the color of text in search boxes, etc. */
+.form-horizontal,
+.form-group, .categoryLink, .form-control {
+    color: #EEE;
+}
+
+/*this changes the button (category button) hover effect*/
+.categoryLink:hover{
+  color: #D6D6D6;
+}
+
+/* this colors the headers / titles of main boxes / menus */
+.header {
+    color: #EEE;
+}
+
+
+
+/* this colors content in the lower span of the package box */
+.store-box-lower {
+    color: #EEE
+}
+
+/* this colors the sub headers in the admin panel side bar */
+.main-menu-box ul.sub-menu .submenu-header {
+    color: #EEE;
+}
+
+/* this colors the links in the admin panel side bar */
+.main-menu-box a,
+a:hover {
+    color: #EEE;
+}
+
+/*this colors the terms of service link*/
+.tos-link {
+    color: #EEE !important;
+}
+/*changes the active color of the admin panel navbar*/
+.dashboard-nav a,.dashboard-nav a.active{
+color: #EEE;
+}
+
+/*changes admin panel version market text color*/
+.version-marker{
+  color:#EEE;
+}
+
+/*this colors the effect of terms of service link*/
+.tos-link:hover {
+    color: #D6D6D6 !important;
+}
+
+/* this colors the default text color effect when hovering a default button*/
+.btn-default:hover {
+    color: #D6D6D6 !important
+}
+
+/** this colors all content inside a table */
+.table-striped thead,
+.table-striped > tbody > tr:nth-of-type(odd),
+.panel-body .panel-inner,
+.form-control {
+    color: #EEE;
+}
+
+/*this colors the text of the header of the package*/
+.store-box-header {
+    color: #EEE;
+}
+/* color of pricing */
+.store-box-upper span{
+    color: #EEE;
+}
+
+/*this changed the text color of the buy button*/
+.buy-btn{
+  color:#EEE;
+}
+
+.buy-btn:hover{
+    color:#D6D6D6;
+}
+/*this colors the text of the header of the featured package*/
+.featured-header{
+  color:#EEE;
+}
+/*this colors the info alerts / callouts*/
+.bs-callout{
+  color:#EEE;
+}
+
+/** this changes the text color of the server label*/
+a .srv-label{
+  color:#EEE;
+}
+/** this changes the hovered text color of the server label*/
+a .srv-label:hover, a:hover .srv-label{
+  color:#D6D6D6 !important;
+}
+
+/* this colors username / profile name of tickets and profile area, along with stats / graphs */
+.ticket-header, .stat-box-header, .panel-body > .panel-header {
+    color: #EEE;
+}
+
+/* this colors the even content of striped tables */
+.table-striped > tbody > tr:nth-of-type(even),
+#sortable li {
+    color: #EEE;
+}
+
+/* this colors the nav bar and dashboard nav bar links and it's hover effect */
+.navbar-inverse .navbar-nav > li > a,
+.dashboard-nav a:hover {
+    color: #D6D6D6;
+}
+
+/* This colors the effect of the navbar link*/
+.navbar-inverse .navbar-nav > li > a:hover {
+    color: #D6D6D6;
+}
+
+/* This colors the active color of the navbar link*/
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+    color: #EEE;
+}
+
+/* this colors the links in the drop down main nav bar*/
+.dropdown-menu > li > a{
+  color:#EEE !important;
+}
+
+/* this colors the text of the progress bar*/
+.progress-bar{
+  color:#EEE;
+}
+/** config end **/

@@ -1,0 +1,54 @@
+/** DO NOT TOUCH THIS AREA OR YOUR THEME WILL NOT WORK**/
+@import url("library.css");
+/** DO NOT TOUCH THIS AREA OR YOUR THEME WILL NOT WORK**/
+/** DO NOT TOUCH THIS AREA OR YOUR THEME WILL NOT WORK**/
+
+
+
+/** this changes accent color: 1, the base accent color is currently blue. **/
+.btn-group.open > .dropdown-toggle.btn.btn-inverse,
+.btn-group-vertical.open > .dropdown-toggle.btn.btn-inverse,
+.navbar.navbar-inverse,
+.navbar.navbar-inverse .dropdown-menu li > a:hover,
+.navbar.navbar-inverse .dropdown-menu li > a:focus,
+.navbar.navbar-inverse .dropdown-menu .active > a,
+.navbar-inverse,
+.featured-header,
+.store-box-header,
+.dashboard-nav,
+#sortable li,
+.dropdown-menu.open li > a:hover,
+.pkg-step,
+.ui-state-hover,
+.ui-widget-content .ui-state-hover,
+.ui-widget-header .ui-state-hover,
+.ui-state-focus,
+.ui-widget-content .ui-state-focus,
+.ui-widget-header .ui-state-focus,
+.trumbowyg-button-pane,
+.btn-group.open > .dropdown-toggle.btn.btn-inverse,
+.btn-group-vertical.open > .dropdown-toggle.btn.btn-inverse {
+    background-color: #E53935 !important;
+}
+
+/**
+This is the special animation that is used when you click inside the search bar, or form group, change #9c27b0 to the accent
+color you use above. ONLY CHANGE THE TWO: #9c27b0
+**/
+.form-control:focus{
+  background-image: linear-gradient(#9c27b0, #9c27b0), linear-gradient(#D2D2D2, #D2D2D2) !important;
+}
+
+/** this is the accent color: #2, the base color for this is purple. **/
+.pagination > .active > a, .pagination > .active > a:focus, .pagination > .active > a:hover,
+.pagination > .active > span,
+.pagination > .active > span:focus,
+.pagination > .active > span:hover, .buy-btn:hover, .buy-btn:focus, .buy-btn, .categoryLink, .progress-bar-danger,
+.ticket-header, .srv-label, .notify-icon, .main-menu-box .badge.notification, ::-webkit-scrollbar-thumb {
+  background-color: #66BB6A;
+}
+
+/** This changes the color of links **/
+a, a:hover, a:focus, .tos-link, .tos-link:hover, .store-box-upper span s{
+  color: #00ACC1;
+}
